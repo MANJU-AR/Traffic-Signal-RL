@@ -9,7 +9,7 @@
 
 This project demonstrates **Traffic Signal Optimization** using **Reinforcement Learning (RL)** with real-time visualization through a modern **React Dashboard**. Developed as part of a **Data Science Internship at INFOTACT SOLUTION**.
 
-![Dashboard Preview](https://via.placeholder.com/800x400/2563eb/ffffff?text=Traffic+Signal+RL+Dashboard)
+
 
 ## 📌 Project Overview
 
@@ -173,10 +173,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **TensorFlow/Keras Team** for powerful machine learning frameworks
 - **FastAPI** and **React** communities for robust development tools
 
-## 👨‍💻 About the Developer
 
-**Manju A R**  
-Data Science Intern | AI Enthusiast | Traffic Optimization Researcher
 
 🔗 **Connect with me:**
 - [LinkedIn](https://www.linkedin.com/in/manju-a-r-624466255)
