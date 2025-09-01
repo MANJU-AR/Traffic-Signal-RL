@@ -117,10 +117,7 @@ sumo-gui -c SUMO-files/intersection.sumocfg
 ┃ ┣ 📜 intersection.sumocfg    # SUMO configuration
 ┃ ┣ 📜 network.net.xml        # Road network definition
 ┃ ┗ 📜 routes.rou.xml         # Vehicle routes
-┣ 📁 models/                   # Trained RL models
-┣ 📁 logs/                     # Training logs and metrics
 ┣ 📜 main.py                   # FastAPI backend learning agent
-┣ 📜 traffic_env.py           # SUMO environment wrapper
 ┣ 📜 requirements.txt         # Python dependencies
 ┣ 📜 README.md                # Project documentation
 ┗ 📜 .gitignore               # Git ignore rules
