@@ -1,0 +1,17 @@
+# Backend Framework
+fastapi==0.110.0
+uvicorn==0.29.0
+
+# RL / ML
+tensorflow==2.16.1
+numpy==1.26.4
+pandas==2.2.2
+
+# Visualization / Debugging
+matplotlib==3.9.0
+
+# SUMO (Traffic Simulator) - install manually from SUMO site
+# sumolib and traci come with SUMO, not via pip
+
+# CORS handling
+python-multipart==0.0.9

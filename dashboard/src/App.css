@@ -1,0 +1,135 @@
+/* General App Container */
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  min-height: 100vh;
+  padding: 30px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Dashboard title */
+h2 {
+  text-align: center;
+  color: #00796b;
+  font-size: 2.2em;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+/* Subheadings */
+h3 {
+  margin-top: 30px;
+  color: #004d40;
+  border-bottom: 2px solid #b2dfdb;
+  padding-bottom: 5px;
+  letter-spacing: 0.5px;
+}
+
+/* Phase Indicator */
+.phase-indicator {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 40px;
+}
+
+.light {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: 2px solid #888;
+  transition: background-color 0.3s ease;
+}
+
+.light.eb.green {
+  background-color: #42a5f5; /* EB green */
+}
+
+.light.sb.green {
+  background-color: #ff9800; /* SB green */
+}
+
+/* Stats cards */
+.stats-card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.stats-card p {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  padding: 15px 25px;
+  font-size: 18px;
+  color: #00796b;
+  margin: 10px;
+  transition: transform 0.2s;
+}
+
+.stats-card p:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 16px rgba(0,0,0,0.15);
+}
+
+/* Lane queue list */
+.lane-queues {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.lane-queues li {
+  font-size: 16px;
+  margin: 5px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.lane-queues li.eb {
+  background-color: #42a5f5;
+}
+
+.lane-queues li.sb {
+  background-color: #ff9800;
+}
+
+/* Chart container */
+.recharts-wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.recharts-line {
+  stroke-width: 3px;
+}
+
+.recharts-tooltip-wrapper {
+  font-size: 14px;
+  background-color: #ffffff !important;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Responsive chart */
+@media (max-width: 768px) {
+  .recharts-wrapper {
+    overflow-x: auto;
+  }
+  .recharts-wrapper svg {
+    width: 1000px;
+  }
+}

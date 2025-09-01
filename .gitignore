@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+*.env
+
+# FastAPI / logs
+*.log
+
+# React (frontend)
+node_modules/
+build/
+dist/
+.cache/
+
+# System / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter / Temp files
+.ipynb_checkpoints/
+*.swp
